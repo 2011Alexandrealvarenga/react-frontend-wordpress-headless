@@ -1,3 +1,18 @@
+## Notes
+## To create project
+npx create-react-app frontend
+
+## Start project
+to run npm start
+
+## To install axios dependencie
+npm install axios (consumir api do wp)
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
