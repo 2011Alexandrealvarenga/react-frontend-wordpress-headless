@@ -17,7 +17,10 @@ const Posts = () => {
       {
         posts && posts.map((post)=>{
           return(
-            <p>{post.title.rendered}</p>
+            <>
+              <h3>{post.title.rendered}</h3>
+              <p dangerouslySetInnerHTML={{__html: post.excerpt.rendered}}></p>
+            </>
           )
       })
       

@@ -3,10 +3,8 @@ import './App.css';
 import Posts from './components/pages/Posts';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
         <Posts />
-      </header>
     </div>
   );
 }
