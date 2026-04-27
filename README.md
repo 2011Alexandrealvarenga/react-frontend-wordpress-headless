@@ -7,8 +7,12 @@ to run npm start
 
 ## To install axios dependencie
 npm install axios (consumir api do wp)
+npm i react-router-dom
 
-
+## Desisntalar e instalar novamente
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
 
 
 

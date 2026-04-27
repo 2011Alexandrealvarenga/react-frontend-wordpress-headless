@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
 
+
 const Posts = () => {
   const [posts, setPosts] = React.useState([]);
 
@@ -13,6 +14,7 @@ const Posts = () => {
 
   return(
     <>
+    <h1 className='text-2xl font-bold'>Posts</h1>
     <div className='w-4/5 m-auto flex justify-between align-middle flex-wrap gap-10'>
       {
         posts && posts.map(post =>{
