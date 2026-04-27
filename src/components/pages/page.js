@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from "../common/Navbar";
 import Home from "./Home";
 import Posts from "./Posts";
+import Single from "./Single";
 
 
 const Page = () => {
@@ -13,6 +14,7 @@ const Page = () => {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/posts" element={<Posts/>}/>
+        <Route path="/posts/:id" element={<Single/>}/>
       </Routes>
     </>
   )
