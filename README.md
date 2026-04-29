@@ -1,4 +1,9 @@
 ## Notes
+
+## Repository and youtube
+https://github.com/tanujpatra228/youtube/tree/headless-wordpress-react-js
+https://www.youtube.com/playlist?list=PLa9NMvQUMD5eH9-Fney5J6Hvhz4qOS-1q
+
 ## To create project
 npx create-react-app frontend
 
